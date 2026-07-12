@@ -1,0 +1,29 @@
+<section id="studyplan">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="sec-num">05</span><span class="sec-title">Study Plan</span><span class="sec-line"></span></div>
+    <p class="about-text reveal" style="color:var(--muted);max-width:680px;margin-bottom:36px">{{ site.data.studyplan.intro }}</p>
+
+    <div class="skill-cols">
+      {% for topic in site.data.studyplan.topics %}
+      <div class="skill-card reveal">
+        <h4>{{ topic.title }}</h4>
+        <div class="chips">
+          {% for chip in topic.chips %}<span class="chip">{{ chip }}</span>{% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="timeline" style="margin-top:56px">
+      {% for week in site.data.studyplan.weeks %}
+      <div class="job{% if week.current %} now{% endif %} reveal">
+        <div class="when">{{ week.when }}</div>
+        <h3>{{ week.title }}</h3>
+        <ul>
+          {% for bullet in week.bullets %}<li>{{ bullet }}</li>{% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,18 @@
+title: "Masum Billah — Backend & .NET Software Engineer"
+description: >-
+  Masum Billah is a backend-focused Software Engineer with 5+ years building
+  scalable .NET Core microservices, event-driven systems, and high-throughput
+  APIs. Based in Dhaka, Bangladesh.
+url: "https://masumbillah.dev"
+author: "Masum Billah"
+email: "mdkmscsepust@gmail.com"
+linkedin: "https://www.linkedin.com/in/masumcspust"
+github: "https://github.com/masumcsepust"
+
+markdown: kramdown
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - masum.pdf

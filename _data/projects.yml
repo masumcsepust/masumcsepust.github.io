@@ -1,0 +1,24 @@
+- tag: "AI · Speech"
+  title: Pronunciation Assessment
+  description: >-
+    AI-powered pronunciation scoring with phoneme-level analysis, built on
+    Azure Speech Services and a Clean-Architecture .NET Core backend.
+  stack: [.NET Core, Azure Speech, Clean Arch]
+- tag: "Backend · Scale"
+  title: Food Delivery Platform
+  description: >-
+    Microservices and RESTful APIs powering user, restaurant, and order flows
+    — with Redis caching and event-driven messaging for peak-hour load.
+  stack: [Microservices, RabbitMQ, PostgreSQL, Redis]
+- tag: "Enterprise · ERP"
+  title: ERP & Garment System
+  description: >-
+    ERP modules and reporting dashboards supporting operational and
+    management decision-making, with third-party API integrations.
+  stack: [.NET MVC, Web API, Reporting]
+- tag: "EdTech · APIs"
+  title: Education Management
+  description: >-
+    RESTful APIs and reporting for student, attendance, result, and fee
+    management — serving academic and administrative workflows.
+  stack: [REST APIs, Angular, DevExpress]

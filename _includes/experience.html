@@ -1,0 +1,17 @@
+<section id="work">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="sec-num">03</span><span class="sec-title">Experience</span><span class="sec-line"></span></div>
+    <div class="timeline">
+      {% for job in site.data.experience %}
+      <div class="job{% if job.current %} now{% endif %} reveal">
+        <div class="when">{{ job.when }}</div>
+        <h3>{{ job.title }}</h3>
+        <div class="co">{{ job.company }}</div>
+        <ul>
+          {% for bullet in job.bullets %}<li>{{ bullet }}</li>{% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

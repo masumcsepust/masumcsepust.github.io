@@ -1,0 +1,36 @@
+<!-- Primary Meta -->
+<title>{{ site.title }}</title>
+<meta name="description" content="{{ site.description | strip_newlines }}">
+<meta name="author" content="{{ site.author }}">
+<meta name="keywords" content="Masum Billah, Software Engineer, .NET Core, Backend Developer, Microservices, C#, ASP.NET Core, RESTful API, Azure, Dhaka">
+<meta name="theme-color" content="#0a0e14">
+<link rel="canonical" href="{{ site.url }}/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ site.title }}">
+<meta property="og:description" content="5+ years building scalable .NET Core microservices, event-driven systems, and high-throughput APIs.">
+<meta property="og:url" content="{{ site.url }}/">
+<meta property="og:site_name" content="{{ site.author }}">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ site.title }}">
+<meta name="twitter:description" content="5+ years building scalable .NET Core microservices and high-throughput APIs.">
+
+<link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
+
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Person",
+  "name":"{{ site.author }}",
+  "jobTitle":"Software Engineer",
+  "address":{"@type":"PostalAddress","addressLocality":"Dhaka","addressCountry":"BD"},
+  "email":"mailto:{{ site.email }}",
+  "url":"{{ site.url }}",
+  "sameAs":["{{ site.linkedin }}","{{ site.github }}"],
+  "knowsAbout":[".NET Core","Microservices","C#","ASP.NET Core","RESTful APIs","Azure","PostgreSQL","RabbitMQ"]
+}
+</script>

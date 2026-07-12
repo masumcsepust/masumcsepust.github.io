@@ -1,0 +1,12 @@
+- title: Languages
+  chips: [C#, SQL, TypeScript, JavaScript]
+- title: Backend & Frameworks
+  chips: [ASP.NET Core, Web API, EF Core, Dapper, Semantic Kernel]
+- title: Architecture
+  chips: [Microservices, Clean Architecture, Event-Driven, SOLID, Design Patterns]
+- title: Data & Messaging
+  chips: [PostgreSQL, Redis, RabbitMQ]
+- title: Cloud & DevOps
+  chips: [Azure, Docker, CI/CD, GitLab, Bitbucket]
+- title: Frontend & Testing
+  chips: [Angular, xUnit, Git, GitHub]

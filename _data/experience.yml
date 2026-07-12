@@ -1,0 +1,30 @@
+- when: "Apr 2026 — Present"
+  title: Software Engineer
+  company: "Foodi Express Ltd · Foodi — Food Delivery Platform"
+  current: true
+  bullets:
+    - Translate stakeholder requirements into effective technical solutions.
+    - Own production deployments and releases with minimal operational impact.
+    - Monitor logs and investigate production issues to keep the platform stable.
+    - Design reporting that handles high-volume data without hurting peak-hour performance.
+- when: "Mar 2023 — Mar 2026"
+  title: Software Engineer
+  company: "Technonext Software Ltd. · foodibd.com"
+  bullets:
+    - Secured services with authentication and authorization across the platform.
+    - Built scalable microservices and RESTful APIs on Clean Architecture.
+    - Implemented event-driven communication and caching for performance.
+- when: "Jan 2022 — Feb 2023"
+  title: Junior Software Engineer
+  company: "Masco Group · ERP & Garment Management"
+  bullets:
+    - Developed and maintained ERP modules and business applications.
+    - Built dynamic reports and dashboards for operational decisions.
+    - Integrated third-party services and APIs to extend capabilities.
+- when: "Oct 2020 — Dec 2021"
+  title: Assistant Software Engineer
+  company: "Lumen IT Ltd. · Education Management System"
+  bullets:
+    - Built RESTful APIs for student, attendance, result, and fee modules.
+    - Maintained interfaces integrated with backend services.
+    - Developed reporting for academic and administrative operations.

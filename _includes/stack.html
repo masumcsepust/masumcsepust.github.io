@@ -1,0 +1,15 @@
+<section id="stack">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="sec-num">02</span><span class="sec-title">Stack</span><span class="sec-line"></span></div>
+    <div class="skill-cols">
+      {% for group in site.data.stack %}
+      <div class="skill-card reveal">
+        <h4>{{ group.title }}</h4>
+        <div class="chips">
+          {% for chip in group.chips %}<span class="chip">{{ chip }}</span>{% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

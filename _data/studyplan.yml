@@ -1,0 +1,69 @@
+intro: >-
+  An 8-week prep roadmap I use to stay sharp for senior-level .NET Core
+  interviews — core language depth, architecture, distributed systems, and
+  system design.
+
+topics:
+  - title: C# & .NET Fundamentals
+    chips: [async/await internals, GC & memory, generics, delegates & events, LINQ internals, records & nullable refs]
+  - title: ASP.NET Core
+    chips: [middleware pipeline, DI lifetimes, minimal APIs, filters, model binding & validation]
+  - title: Data & EF Core
+    chips: [query optimization, transactions & isolation, EF Core vs Dapper, indexing, N+1 detection]
+  - title: Architecture & Patterns
+    chips: [Clean Architecture, CQRS + MediatR, DDD tactical patterns, SOLID, Repository/UoW tradeoffs]
+  - title: Distributed Systems
+    chips: [event-driven design, RabbitMQ/Kafka, saga & outbox, Polly & circuit breakers, idempotent APIs]
+  - title: Cloud, Security & Design
+    chips: [Azure & Docker/K8s, CI/CD, JWT/OAuth2, observability, system design]
+
+weeks:
+  - when: Week 1
+    title: C# Deep Dive
+    current: true
+    bullets:
+      - Async/await internals, tasks vs threads, and the GC generations model.
+      - Generics, delegates, events, and LINQ under the hood.
+      - Records, value vs reference types, nullable reference types.
+  - when: Week 2
+    title: ASP.NET Core Internals
+    bullets:
+      - Middleware pipeline, hosting model, and request lifecycle.
+      - DI container lifetimes (singleton/scoped/transient) and pitfalls.
+      - Minimal APIs vs controllers, filters, and model validation.
+  - when: Week 3
+    title: Data & EF Core
+    bullets:
+      - Tracking vs no-tracking queries, change tracker performance.
+      - Transactions, isolation levels, and connection pooling.
+      - Spotting and fixing N+1 queries; EF Core vs Dapper tradeoffs.
+  - when: Week 4
+    title: Architecture & Design Patterns
+    bullets:
+      - Clean Architecture layering and dependency rule.
+      - CQRS with MediatR, DDD tactical patterns (aggregates, value objects).
+      - SOLID applied in real service design, Repository/UoW tradeoffs.
+  - when: Week 5
+    title: Microservices & Distributed Systems
+    bullets:
+      - Service-to-service communication, API gateway patterns.
+      - Event-driven messaging with RabbitMQ/Kafka, saga & outbox patterns.
+      - "Resilience: retries, circuit breakers (Polly), idempotent APIs."
+  - when: Week 6
+    title: Caching, Performance & Concurrency
+    bullets:
+      - Redis and distributed caching strategies, cache invalidation.
+      - Thread safety, concurrent collections, lock-free patterns.
+      - Profiling and load testing high-throughput endpoints.
+  - when: Week 7
+    title: Cloud, DevOps & Security
+    bullets:
+      - Azure App Service/Functions, Docker & Kubernetes fundamentals.
+      - CI/CD pipelines, secrets management, structured logging & tracing.
+      - JWT/OAuth2/OpenID Connect, OWASP API security basics.
+  - when: Week 8
+    title: System Design & Mock Interviews
+    bullets:
+      - "Design a scalable backend end-to-end (e.g. food delivery, URL shortener)."
+      - "Practice tradeoff discussions: sharding, partitioning, consistency vs availability."
+      - Mock interviews covering technical depth and leadership/behavioral rounds.
