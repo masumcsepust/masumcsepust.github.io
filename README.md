@@ -4,7 +4,7 @@ Personal portfolio for **Masum Billah**, a backend-focused Software Engineer
 specializing in **.NET Core microservices**, event-driven systems, and
 high-throughput APIs.
 
-🔗 **Live site:** [_add your URL after deploying_](https://masumcsepust.github.io/)
+🔗 **Live site:** [me](https://masumcsepust.github.io/)
 
 ---
 
