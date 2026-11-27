@@ -30,7 +30,7 @@
     <a class="logo" href="/mimberbangla/"><img src="/mimberbangla/assets/img/icon.png" alt="">মিম্বার বাংলা</a>
     <nav>
       <a href="/mimberbangla/blog/">ব্লগ</a>
-      <a href="/mimberbangla/duas/">দোয়া</a>
+      <a href="/mimberbangla/#app">সবক অ্যাপ</a>
       <a href="/mimberbangla/videos/">ভিডিও</a>
       <a href="/mimberbangla/about/">পরিচিতি</a>
     </nav>
@@ -45,27 +45,27 @@
       <p>ছোট-বড় সবার জন্য — প্রতিদিন একটু একটু করে দ্বীন শেখা।</p>
       <div class="btns">
         <a class="btn gold" href="https://www.youtube.com/@mimberbangla" target="_blank" rel="noopener">▶ YouTube-এ দেখুন</a>
-        <a class="btn ghost" href="/mimberbangla/blog/">ব্লগ পড়ুন</a>
+        <a class="btn ghost" href="#app">সবক অ্যাপ</a>
       </div>
     </div>
     <img src="/mimberbangla/assets/img/icon.png" alt="মিম্বার বাংলা লোগো — মিম্বার, মাইক্রোফোন আর আলো">
   </div>
 </div>
 
-<section id="dua">
+<section id="app">
   <div class="wrap">
-    <div class="head">
-      <div><h2>আজকের দোয়া</h2><p class="sub">প্রতিদিন একটি — আরবি, উচ্চারণ, অর্থ আর সূত্রসহ।</p></div>
-      <a class="more" href="/mimberbangla/duas/">সব দোয়া →</a>
-    </div>
-    <div class="card dua" aria-live="polite">
-      <span class="tag" id="d-group"></span>
-      <h3 id="d-title"></h3>
-      <div class="ar" id="d-ar"></div>
-      <div class="say" id="d-say"></div>
-      <div class="mean" id="d-mean"></div>
-      <div class="ref" id="d-ref"></div>
-      <div class="pick" id="d-pick"></div>
+    <div class="card app">
+      <div class="app-text">
+        <div class="app-head"><img src="/mimberbangla/assets/img/sobok-icon.png" alt="সবক অ্যাপের আইকন"><div><h2>সবক অ্যাপ</h2><span class="tag">শীঘ্রই Google Play-তে</span></div></div>
+        <p class="app-lead">কুরআন পড়ুন — সবক শুনে বলে দেবে কোথায় ভুল।</p>
+        <ul class="ticks">
+          <li>নূরানী কায়দা: ২৮টি হরফ, ধাপে ধাপে</li>
+          <li>মুখে পড়ুন, কোন শব্দে ভুল সাথে সাথে দেখুন</li>
+          <li>আল-ফাতিহা ও শেষ ১০ সূরা, নামাজের দোয়া</li>
+          <li>সবক সহকারী: বাংলায় প্রশ্ন, বলে অনুশীলন</li>
+        </ul>
+      </div>
+      <img class="app-shot" src="/mimberbangla/assets/img/sobok-screen.jpg" alt="সবক অ্যাপে আয়াত পড়ার পর কোন শব্দে ভুল তা দেখাচ্ছে">
     </div>
   </div>
 </section>
@@ -126,25 +126,6 @@
     </div>
   </div>
 </section>
-
-<script>
-  // _data/duas.yml থেকে — দিনে একটি করে সামনে আসে, চিপে চাপ দিলে অন্যটি।
-  var GROUPS = [{"group":"ঘুম","items":[{"title":"ঘুমানোর আগে","ar":"اللَّهُمَّ بِاسْمِكَ أَمُوتُ وَأَحْيَا","say":"আল্লা-হুম্মা বিসমিকা আমূতু ওয়া আহ্‌ইয়া","mean":"হে আল্লাহ! আপনার নামেই আমি মৃত্যুবরণ করি এবং জীবিত হই।","ref":"সহীহ বুখারী ৬৩২৪"},{"title":"ঘুম থেকে উঠে","ar":"الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ","say":"আলহামদু লিল্লা-হিল্লাযী আহ্‌ইয়া-না বা‘দা মা- আমা-তানা ওয়া ইলাইহিন নুশূর","mean":"সকল প্রশংসা আল্লাহর, যিনি মৃত্যুর পর আমাদের জীবিত করেছেন, আর তাঁর কাছেই ফিরে যেতে হবে।","ref":"সহীহ বুখারী ৬৩২৪"}]},{"group":"খাবার","items":[{"title":"খাওয়ার শুরুতে","ar":"بِسْمِ اللَّهِ","say":"বিসমিল্লাহ","mean":"আল্লাহর নামে (শুরু করছি)। শুরুতে ভুলে গেলে মনে পড়লেই বলুন — বিসমিল্লাহি আউওয়ালাহু ওয়া আ-খিরাহু।","ref":"সুনানে আবু দাউদ ৩৭৬৭ · তিরমিযী ১৮৫৮"},{"title":"খাওয়ার পরে","ar":"الْحَمْدُ لِلَّهِ الَّذِي أَطْعَمَنِي هَذَا وَرَزَقَنِيهِ مِنْ غَيْرِ حَوْلٍ مِنِّي وَلَا قُوَّةٍ","say":"আলহামদু লিল্লা-হিল্লাযী আত‘আমানী হা-যা ওয়া রাযাক্বানীহি মিন গাইরি হাওলিম মিন্নী ওয়ালা ক্বুওয়াহ","mean":"সকল প্রশংসা আল্লাহর, যিনি আমাকে এটি খাইয়েছেন এবং আমার কোনো শক্তি ও সামর্থ্য ছাড়াই আমাকে এ রিজিক দিয়েছেন।","ref":"সুনানে আবু দাউদ ৪০২৩ · তিরমিযী ৩৪৫৮"}]},{"group":"ঘর ও বাইরে","items":[{"title":"ঘর থেকে বের হওয়ার সময়","ar":"بِسْمِ اللَّهِ تَوَكَّلْتُ عَلَى اللَّهِ لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ","say":"বিসমিল্লা-হি তাওয়াক্কালতু ‘আলাল্লা-হি লা- হাওলা ওয়ালা ক্বুওয়াতা ইল্লা- বিল্লা-হ","mean":"আল্লাহর নামে (বের হলাম), আল্লাহর ওপর ভরসা করলাম। আল্লাহ ছাড়া কোনো শক্তি ও সামর্থ্য নেই।","ref":"সুনানে আবু দাউদ ৫০৯৫ · তিরমিযী ৩৪২৬"},{"title":"যানবাহনে চড়ার সময়","ar":"سُبْحَانَ الَّذِي سَخَّرَ لَنَا هَذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ وَإِنَّا إِلَى رَبِّنَا لَمُنْقَلِبُونَ","say":"সুবহা-নাল্লাযী সাখখারা লানা- হা-যা- ওয়ামা- কুন্না- লাহু মুক্বরিনীন, ওয়া ইন্না- ইলা- রাব্বিনা- লামুনক্বালিবূন","mean":"পবিত্র তিনি, যিনি এটিকে আমাদের বশীভূত করে দিয়েছেন, অথচ আমরা একে বশ করতে পারতাম না। আর আমরা অবশ্যই আমাদের রবের কাছে ফিরে যাব।","ref":"সূরা যুখরুফ ৪৩:১৩–১৪ · সহীহ মুসলিম ১৩৪২"}]},{"group":"দৈনন্দিন","items":[{"title":"টয়লেটে প্রবেশের আগে","ar":"اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْخُبُثِ وَالْخَبَائِثِ","say":"আল্লা-হুম্মা ইন্নী আ‘ঊযু বিকা মিনাল খুবুসি ওয়াল খাবা-ইস","mean":"হে আল্লাহ! আমি আপনার কাছে অপবিত্র পুরুষ ও নারী জিন থেকে আশ্রয় চাই।","ref":"সহীহ বুখারী ১৪২ · সহীহ মুসলিম ৩৭৫"},{"title":"টয়লেট থেকে বের হয়ে","ar":"غُفْرَانَكَ","say":"গুফরা-নাকা","mean":"(হে আল্লাহ!) আমি আপনার ক্ষমা চাই।","ref":"সুনানে আবু দাউদ ৩০ · তিরমিযী ৭"},{"title":"হাঁচি দিলে","ar":"الْحَمْدُ لِلَّهِ","say":"আলহামদুলিল্লাহ — শুনে অন্যজন বলবেন \"ইয়ারহামুকাল্লাহ\", উত্তরে \"ইয়াহদীকুমুল্লাহু ওয়া ইউসলিহু বা-লাকুম\"","mean":"সকল প্রশংসা আল্লাহর। (আল্লাহ আপনার প্রতি রহম করুন। — আল্লাহ আপনাদের হিদায়াত দিন ও অবস্থা ভালো করুন।)","ref":"সহীহ বুখারী ৬২২৪"}]}];
-  var DUAS = [];
-  GROUPS.forEach(function (g) { g.items.forEach(function (d) { d.group = g.group; DUAS.push(d); }); });
-  function $(id) { return document.getElementById(id); }
-  function show(i) {
-    var d = DUAS[i];
-    $('d-group').textContent = d.group; $('d-title').textContent = d.title; $('d-ar').textContent = d.ar;
-    $('d-say').textContent = 'উচ্চারণ: ' + d.say; $('d-mean').textContent = 'অর্থ: ' + d.mean; $('d-ref').textContent = d.ref;
-    Array.prototype.forEach.call($('d-pick').children, function (b, j) { b.setAttribute('aria-pressed', String(j === i)); });
-  }
-  DUAS.forEach(function (d, i) {
-    var b = document.createElement('button'); b.type = 'button'; b.textContent = d.title; b.onclick = function () { show(i); };
-    $('d-pick').appendChild(b);
-  });
-  show(Math.floor(Date.now() / 86400000) % DUAS.length);
-</script>
 
 </main>
 
